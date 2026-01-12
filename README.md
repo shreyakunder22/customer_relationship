@@ -30,6 +30,7 @@ CREATE TABLE invoices (
 );
 
 -- Data cleaning
+
 -- 1. Find NULL Values
 SELECT *
 FROM invoices
@@ -55,6 +56,7 @@ SELECT * FROM invoices;
 SELECT COUNT(*) AS total_invoices FROM invoices;
 
 -- Data analysis
+
 -- Q.1 Write a SQL query to find the total revenue
 
 SELECT SUM(amount) AS total_revenue
